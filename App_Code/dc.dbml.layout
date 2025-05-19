@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="dc">
+  <DataContextMoniker Name="/dcDataContext" />
+  <nestedChildShapes>
+    <classShape Id="1f898faf-4f1b-4f4b-8d81-54e4b1f07d1f" absoluteBounds="0.5, 0.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/dcDataContext/tblAyarlar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca4f13ae-aa47-484f-bb47-f4d7638a3f0c" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed22d179-2b3a-4cc1-9a8b-387190920b8e" absoluteBounds="2.625, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/dcDataContext/tblMusteriler" />
+      <nestedChildShapes>
+        <elementListCompartment Id="316a5faa-6d1c-4ebd-a9d4-00bea36f17cb" absoluteBounds="2.6400000000000006, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1e8de5e1-f8b7-407e-b44c-7daf9c76b19d" absoluteBounds="5.25, 0.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/dcDataContext/tblCariHareket" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b333a905-ce7e-4b5f-b332-03224797e24f" absoluteBounds="5.265, 1.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

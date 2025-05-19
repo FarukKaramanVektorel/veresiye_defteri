@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="enkaceli_db" Class="dcDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\MSSQL;Initial Catalog=enkaceli_db;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="enkaceli_dbConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.tblAyarlar" Member="tblAyarlars">
+    <Type Name="tblAyarlar">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="k_adi" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="sifre" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblMusteriler" Member="tblMusterilers">
+    <Type Name="tblMusteriler">
+      <Column Name="m_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="m_ad" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_soyad" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_telefon" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_ceptel" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_mail" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_tc" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_adres" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_aciklama" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCariHareket" Member="tblCariHarekets">
+    <Type Name="tblCariHareket">
+      <Column Name="ch_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ch_urun" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ch_tutar" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ch_tarih" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="ch_aciklama" Type="System.String" DbType="VarChar(500)" CanBeNull="true" />
+      <Column Name="m_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ch_harekettipi" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
